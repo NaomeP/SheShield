@@ -6,4 +6,4 @@ COPY . .
 
 RUN ./mvnw clean package -DskipTests
 
-CMD ["java", "-jar", "target/Course-Registration-System-0.0.1-SNAPSHOT.jar"]
+CMD ["sh", "-c", "java -jar target/*.jar"]
