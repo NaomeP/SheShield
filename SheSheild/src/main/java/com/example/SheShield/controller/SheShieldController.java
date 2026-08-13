@@ -37,4 +37,8 @@ public class SheShieldController {
 				return "Congratulations! "+name+" Registration Succesfuk for "+resourceName;
 
 }
+	@GetMapping("/")
+public String home() {
+    return "SheShield Backend is Running!";
+}
 }
